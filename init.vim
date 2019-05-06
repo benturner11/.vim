@@ -1,9 +1,18 @@
 set nocompatible
+set number
+set mouse=a
+set relativenumber
+set textwidth=79
+set clipboard=unnamed
 let g:mapleader=" "
 
 call plug#begin('~/.config/nvim/vendor')
 
 if !has('nvim') && !exists('g:gui_oni') | Plug 'tpope/vim-sensible' | endif
 Plug 'rstacruz/vim-opinion'
+Plug 'w0rp/ale'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-sleuth'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
