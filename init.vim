@@ -4,6 +4,7 @@ set mouse=a
 set relativenumber
 set textwidth=79
 set clipboard=unnamed
+set backspace=indent,eol,start
 let g:mapleader=" "
 
 call plug#begin('~/.config/nvim/vendor')
