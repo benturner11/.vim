@@ -17,5 +17,5 @@ Plug 'tpope/vim-sleuth'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-
+Plug 'benmills/vimux'
 call plug#end()
